@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/maxwang/static/css/main.1c43c840.css",
-    "main.js": "/maxwang/static/js/main.552b9f7c.js",
+    "main.css": "/maxwang/static/css/main.96129868.css",
+    "main.js": "/maxwang/static/js/main.0c4731d5.js",
     "static/js/787.988cc48b.chunk.js": "/maxwang/static/js/787.988cc48b.chunk.js",
     "index.html": "/maxwang/index.html",
-    "main.1c43c840.css.map": "/maxwang/static/css/main.1c43c840.css.map",
-    "main.552b9f7c.js.map": "/maxwang/static/js/main.552b9f7c.js.map",
+    "main.96129868.css.map": "/maxwang/static/css/main.96129868.css.map",
+    "main.0c4731d5.js.map": "/maxwang/static/js/main.0c4731d5.js.map",
     "787.988cc48b.chunk.js.map": "/maxwang/static/js/787.988cc48b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c43c840.css",
-    "static/js/main.552b9f7c.js"
+    "static/css/main.96129868.css",
+    "static/js/main.0c4731d5.js"
   ]
 }
