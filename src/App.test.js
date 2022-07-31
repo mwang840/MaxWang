@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { getByAltText, render, screen } from '@testing-library/react';
 import App from './App';
 
 test('renders the menu bar', () => {
@@ -14,3 +14,9 @@ test('renders the menu bar', () => {
   expect(linkElementFour).toBeInTheDocument();
   expect(linkElementFive).toBeInTheDocument();
 });
+
+it('My image shall appear', async()=>{
+  await render(<App/>);
+  const img = screen.getByAltText('Max');
+  expect(img).toBeInTheDocument();
+})
