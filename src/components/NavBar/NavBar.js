@@ -10,7 +10,7 @@ class NavBar extends Component{
 
     render(){
     return (<nav className="NavbarItems">
-        <h1 className="navbar-logo"><i className="fa-brands fa-react"></i></h1>
+        <h1 className="navbar-logo">Welcome<i className="fa-brands fa-react"></i></h1>
         <div className="menu-icon" onClick={this.handleClick}><i className={this.state.clicked ? "fas fa-times" : "fa-solid fa-bars"}></i></div>
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
             {MenuItems.map((item, index)=>{
