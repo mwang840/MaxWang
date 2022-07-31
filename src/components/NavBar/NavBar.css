@@ -27,4 +27,29 @@
     text-align: center;
     width: 70px;
     justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: rgb(183, 16, 8);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover{
+    background-color: rgb(241, 185, 136);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
 }
