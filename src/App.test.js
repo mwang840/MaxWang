@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders the menu bar', () => {
+test('renders the menu bar with options', () => {
   render(<App />);
   const linkElement = screen.getByText(/Home/i);
   const linkElementTwo = screen.getByText(/About/i);
@@ -19,4 +19,10 @@ it('My image shall appear', async()=>{
   await render(<App/>);
   const img = screen.getByAltText('Max');
   expect(img).toBeInTheDocument();
+})
+
+test('There should be a feedback shown', ()=>{
+  render(<App/>)
+  const theFeedback = screen.getByText(/Feedback/i);
+  expect(theFeedback).toBeInTheDocument();
 })
