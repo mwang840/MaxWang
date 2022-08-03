@@ -21,8 +21,8 @@ it('My image shall appear', async()=>{
   expect(img).toBeInTheDocument();
 })
 
-test('There should be a feedback shown', ()=>{
-  render(<App/>)
-  const theFeedback = screen.getByText(/Feedback/i);
-  expect(theFeedback).toBeInTheDocument();
+test('A button is initially on the page', ()=>{
+  render(<App/>);
+  const theButton = screen.getByRole("button");
+  expect(theButton).toBeInTheDocument();
 })
