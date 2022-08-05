@@ -6,7 +6,7 @@ export const MenuItems = [
     },
     {
         title: 'About',
-        url: 'maxwang/About',
+        url: '/About',
         cName: 'nav-links'
     },
     {
