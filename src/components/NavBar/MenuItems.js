@@ -1,27 +1,27 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: '#',
+        url: '',
         cName: 'nav-links'
     },
     {
         title: 'About',
-        url: '#',
+        url: '/About',
         cName: 'nav-links'
     },
     {
         title: 'Awards',
-        url: '#',
+        url: '/Awards',
         cName: 'nav-links'
     },
     {
         title: 'Projects',
-        url: '#',
+        url: '/Projects',
         cName: 'nav-links'
     },
     {
         title: 'Contacts',
-        url: '#',
+        url: '/Contacts',
         cName: 'nav-links'
     }
 ]
