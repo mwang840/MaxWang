@@ -6,12 +6,12 @@ export const MenuItems = [
     },
     {
         title: 'About',
-        url: '/About',
+        url: 'maxwang/About',
         cName: 'nav-links'
     },
     {
         title: 'Awards',
-        url: '/Awards',
+        url: 'maxwang/Awards',
         cName: 'nav-links'
     },
     {
