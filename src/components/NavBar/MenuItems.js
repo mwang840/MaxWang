@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title: 'Awards',
-        url: 'maxwang/Awards',
+        url: '/Awards',
         cName: 'nav-links'
     },
     {
