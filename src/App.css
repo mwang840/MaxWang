@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+title{
+  color:blue;
+}
+
 h1{
   text-align: center;
 }
