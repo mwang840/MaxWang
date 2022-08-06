@@ -1,14 +1,13 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
-import Router from './components/Router/Router';
 import './App.css';
 import max from "./assets/MaxWang.JPG";
 
 function App() {
+  console.log(window.location)
   return (
     <div className="App">
       <NavBar>
-        <Router/>
       </NavBar>
       <img src={max} alt="Max" style={{width: 250, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
       <title>Welcome!</title>
