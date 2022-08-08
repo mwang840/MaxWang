@@ -7,23 +7,11 @@
     font-size: 1.1rem;
 }
 
-.navbar-logo{
-    text-align: right;
+.ul.CustomLink{
+    display:inline-block;
 }
 
-.fa-brands-fa-react {
-    margin-left: 0.6rem;
-    font-size:1.5rem;
-}
-
-.navbar-logo{
-    color: blue;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-.nav-menu{
+.CustomLink{
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
@@ -34,28 +22,20 @@
     margin-right: 2rem;
 }
 
-.nav-links{
-    color: rgb(183, 16, 8);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
 
-.nav-links:hover{
+.CustomLink:hover{
     background-color: rgb(241, 185, 136);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 
-.fa-bars{
-    color: rgb(37, 213, 113);
-}
 
 .nav-links-mobile{
     display: none;
 }
 
 .menu-icon{
-    display: none;
+    display: all;
 }
 
 @media screen and (max-width: 960px){
@@ -88,13 +68,6 @@
         border-radius: 0;
     }
 
-    .navbar-logo{
-        position: absolute;
-        top:0;
-        left: 0;
-        transform: translate(25%, 50%);
-    }
-
     .menu-icon{
         display: block;
         position: absolute;
@@ -105,12 +78,7 @@
         cursor: pointer;
     }
 
-    .fa-times{
-        color: white;
-        font-size:2rem;
-    }
-
-    .nav-links-mobile{
+    .CustomLink-mobile{
         display: block;
         text-align: center;
         padding:1.5rem;
@@ -122,7 +90,7 @@
         font-size:1.5rem;
     }
 
-    .nav-links-mobile:hover{
+    .CustomLink:hover{
         background: white;
         color: rgb(235, 98, 98);
         transition: 250ms;;

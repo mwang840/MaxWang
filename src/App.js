@@ -1,22 +1,33 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
-import Router from './components/Router/Router';
 import './App.css';
+import Home from './Pages/Home';
+import { Routes, Route } from 'react-router-dom';
 import max from "./assets/MaxWang.JPG";
 
 function App() {
+  console.log(window.location)
   return (
     <div className="App">
       <NavBar>
-        <Router/>
       </NavBar>
+
       <title>Welcome!</title>
       <img src={max} alt="Max" style={{width: 250, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
-      <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware .
+      <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware .</p>
+
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+        </Routes>
+      </div>
+      <img src={max} alt="Max" style={{width: 250, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
+      <title>Welcome!</title>
+      <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware concentrating in artificial intelligence.
       </p>
-      <p>If you want to learn more from, me, feel free to explore the different menu sections of my website</p>
-      <footer><small>This website was made with Javascript and the React.js framework.</small></footer>
+      <p>Feel free to explore the different menu sections of my website</p>
       <p>Got any issues, submit it to the feedback button right on my website</p>
+      <footer><small>This website was made with Javascript and the React.js framework.</small></footer>
     </div>
   );
 }
