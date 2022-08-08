@@ -1,0 +1,12 @@
+title{
+    color:gray;
+}
+
+p{
+    color: rgb(7,7,7);
+}
+
+table, tr, td{
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}

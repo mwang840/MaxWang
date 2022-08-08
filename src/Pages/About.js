@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css';
 
 function About(){
     return (<div><title>About Me</title>
@@ -15,6 +16,30 @@ function About(){
             <p>
                 Outside of the computer science field, I have different interests which include: 
             </p>
+            <table>
+                <tr>
+                    <td>Exercising</td>
+                    <td> I like to exercise in my free time allocating at least 30 minutes a day to exercise.
+                        Whether it be biking, doing weight-resistant tranining, running or walking, it is a relaxing thing for me to do.
+                    </td>
+                </tr>
+                <tr>
+                <td>Chess</td>
+                    <td> Having picked up the passion in elementary school, I'm a massive chess fan. 
+                        I play chess for fun and even started joining the chess club in my school years and there is a chess club at the University
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Math</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Hiking</td>
+                    <td></td>
+                </tr>
+            </table>
     </div>);
 }
 
