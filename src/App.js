@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import './App.css';
+import Home from './Pages/Home';
+import { Routes, Route } from 'react-router-dom';
 import max from "./assets/MaxWang.JPG";
 
 function App() {
@@ -9,6 +11,11 @@ function App() {
     <div className="App">
       <NavBar>
       </NavBar>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+        </Routes>
+      </div>
       <img src={max} alt="Max" style={{width: 250, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
       <title>Welcome!</title>
       <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware concentrating in artificial intelligence.
