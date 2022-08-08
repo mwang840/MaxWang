@@ -1,5 +1,6 @@
 import React from "react";
 import max from "../assets/MaxWang.JPG";
+import "./Home.css"
 
 function Home(){
     return <div>
