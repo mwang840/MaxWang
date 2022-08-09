@@ -5,6 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
 body{
   background-color: rgb(202, 240, 125);
 }
@@ -15,7 +16,7 @@ Navbar{
   padding: 20px;
   margin: 20px;
   border-radius: 1px solid;
-}
+
 
 h1{
   text-align: center;
@@ -23,7 +24,6 @@ h1{
 
 p {
   text-align: center;
-  color:rgb(7, 7, 7);
 }
 
 img{
@@ -40,5 +40,4 @@ small {
 
 footer{
   text-align: center;
-  color:rgb(183, 16, 8);
 }
