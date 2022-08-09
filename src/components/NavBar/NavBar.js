@@ -3,13 +3,17 @@ import {Button} from "../Button";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import './NavBar.css';
 
+//map?
 export default function NavBar(){
-    return (<nav className='NavbarItems'>
+    return (
+    <nav className='NavbarItems'>
         <Link to="/">Maxwell Wang</Link>
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
+        
         <Button>Feedback</Button>
-    </nav>)
+    </nav>
+    )
 }
 
 function CustomLink({to, children, ...props}){
