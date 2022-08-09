@@ -5,9 +5,18 @@
   font-family: 'Poppins', sans-serif;
 }
 
-title{
-  color:blue;
+
+body{
+  background-color: rgb(202, 240, 125);
 }
+
+Navbar{
+  width: 200px;
+  border: 15px solid red;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 1px solid;
+
 
 h1{
   text-align: center;
