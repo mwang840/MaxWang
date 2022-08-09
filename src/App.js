@@ -4,27 +4,15 @@ import './App.css';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import { Routes, Route } from 'react-router-dom';
-import max from "./assets/MaxWang.JPG";
 
 function App() {
-  console.log(window.location)
   return (
     <div className="App">
+      <NavBar/>
       <Routes>
-        <div className="container">
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
-        </div>
-
-      </NavBar>
-      <Routes/>
-      <title>Welcome!</title>
-      <img src={max} alt="Max" style={{width: 250, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
-      <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware .</p>
-
-      <p>Feel free to explore the different menu sections of my website</p>
-      <p>Got any issues, submit it to the feedback button right on my website</p>
-      <footer><small>This website was made with Javascript and the React.js framework.</small></footer>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+      </Routes>
     </div>
   );
 }
