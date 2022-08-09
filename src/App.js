@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="App">
       <NavBar>
-      </NavBar>
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
+      <Routes>
+        <div className="container">
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+        </div>
         </Routes>
-      </div>
+      </NavBar>
       <img src={max} alt="Max" style={{width: 250, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
       <title>Welcome!</title>
       <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware concentrating in artificial intelligence.

@@ -32,7 +32,7 @@ function About(){
 
                 <tr>
                     <td>Math</td>
-                    <td></td>
+                    <td>Ever since elementary school, I had</td>
                 </tr>
 
                 <tr>
