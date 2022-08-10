@@ -7,6 +7,16 @@ p{
 }
 
 table, tr, td{
-    border: 1px solid;
+    border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: greenyellow;
 }
