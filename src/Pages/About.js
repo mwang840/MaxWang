@@ -18,7 +18,7 @@ function About(){
             <h6>
                 Outside of the computer science field, I have different interests which include: 
             </h6>
-            <table>
+            <table class="table">
                 <tr>
                     <td>Exercising</td>
                     <td> <p>I like to exercise in my free time allocating at least 30 minutes a day to exercise.
@@ -42,7 +42,22 @@ function About(){
 
                 <tr>
                     <td>Hiking</td>
-                    <td><p>My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails. Even though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there. Here are some pictures in this link</p></td>
+                    <td><p>My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails. Even though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there. Here are some pictures in this link.</p></td>
+                </tr>
+
+                <tr>
+                    <td>Sports</td>
+                    <td><p>It was not until late middle school, I started to try out soccer. I then further participated in soccer throughout high school and enjoyed it despite being an average player.</p>
+                    
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Music</td>
+                    <td>
+                        <p>I am a big fan of instrumental, pop and hip hop music.</p>
+                        <p>I listen to different artists ranging from NCS to Maroon 5 to Juice Wrld. Over middle school, I've gotten into listing to Maroon 5 as the band was popular during the 2000s. </p>
+                         </td>
                 </tr>
             </table>
     </div>);

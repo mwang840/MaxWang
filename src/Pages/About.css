@@ -6,15 +6,29 @@ p{
     color: rgb(7,7,7);
 }
 
-table, tr, td{
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table td{
     border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 75%;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
 }
+
+table tr{
+    border: 1px solid black;
+    border-left: 1px solid #000;
+   border-right: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 
 body{
