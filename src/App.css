@@ -10,12 +10,16 @@ body{
   background-color: rgb(168, 246, 67);
 }
 
-.Navbar{
-  width: 200px;
+.NavbarItems{
+  width: 1500px;
+  height: 200px;
   border: 15px solid red;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
-  border-radius: 1px solid;
+}
+
+ul{
+  list-style-type: none;
 }
 
 h1{
