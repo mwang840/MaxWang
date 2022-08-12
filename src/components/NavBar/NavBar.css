@@ -1,35 +1,29 @@
-.NavbarItems {
-    background: linear-gradient(90deg, rgb(rgb(110,94,254)0%, rgba(73,63,252,1) 100%));
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.1rem;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
 }
 
-.ul.CustomLink{
-    display:inline-block;
+li {
+    float: left;
 }
 
-CustomLink{
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
+li a{
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+button{
     text-align: center;
-    width: 70px;
-    justify-content: end;
-    margin-right: 2rem;
-    width: 200px;
-    border: 15px solid red;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 1px solid;
 }
-
 
 CustomLink:hover{
-    background-color: rgb(241, 185, 136);
+    background-color: rgb(238, 163, 97);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
