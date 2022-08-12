@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from "../components/Button";
 import max from "../assets/MaxWang.JPG";
 import "./Home.css"
 
@@ -9,6 +10,7 @@ function Home(){
       </p>
       <p>Feel free to explore the different menu sections of my website</p>
       <p>Got any issues, submit it to the feedback button right on my website</p>
+      <Button>Feedback</Button>
       <footer><small>This website was made with Javascript and the React.js framework.</small></footer>
     </div>
 }
