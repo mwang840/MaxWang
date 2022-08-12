@@ -1,18 +1,19 @@
 import React from 'react';
-import {Button} from "../Button";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import './NavBar.css';
 
 //map?
 export default function NavBar(){
     return (
-    <nav className='NavbarItems'>
-        <Link to="/">Maxwell Wang</Link>
-        <CustomLink to="/">Home</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+    <div>
+        <ul>
+            <li><Link to="/">Maxwell Wang</Link></li>
+            <li><CustomLink to="/">Home</CustomLink></li>
+            <li><CustomLink to="/about">About</CustomLink></li>
+        </ul>
         
-        <Button>Feedback</Button>
-    </nav>
+        
+    </div>
     )
 }
 
