@@ -1,6 +1,6 @@
 import React from "react";
 import './About.css';
-
+//import max from "../assets/MaxWang.JPG"
 
 function About(){
     return (<div>
@@ -11,53 +11,44 @@ function About(){
             <h6>Im aspiring to pursuing a career in Software Engineering, Artificial Intelligence,
                 Web-Development. Currently, I am contributing to an undergradutate research project focusing in human-computer interaction.
             </h6>
-            <h6>I've started pursuing my computer science career dream late in high school. In my senior year of high school, I started programming in Java in 2019 and I have learned 
-                a lot from then. I have experiences working in Python, Java, C/C++, Javascript, TypeScript, React.js framework, HTML, CSS, Node.js. I have also have basic knowledge of C#, Unity, Git 
-                and Assembly language. Im currently learning SQL, .NET framework and maybe more programming languages.
+            <h6>I've pursued my computer science career dream late in high school. In my senior year, I started programming in Java in 2019 and I have learned 
+                a lot more. I have experiences working in Python, Java, C/C++, Javascript, TypeScript, React.js framework, HTML/CSS, Node.js with basic knowledge of C#, Unity, Git, 
+               R, and Assembly language. Im currently learning SQL, .NET framework and maybe more programming languages.
             </h6>
             <h6>
                 Outside of the computer science field, I have different interests which include: 
             </h6>
-            <table class="table">
+            <table class="center">
                 <tr>
                     <td>Exercising</td>
-                    <td> <p>I like to exercise in my free time allocating at least 30 minutes a day to exercise.
-                        Whether it be biking, doing weight-resistant tranining, running or walking, it is a fun thing for me to do.</p>
+                    <td> 
+                        <p>I like to exercise daiy which includes biking, doing weight-resistant tranining, running or walking.
+                        </p>
                     </td>
                 </tr>
                 
                 <tr>
                 <td>Chess</td>
-                    <td> <p>Having picked up the passion in elementary school, I'm a massive chess fan. 
-                        I play chess for fun and even started joining the chess club in my school years and there is a chess club at the University which I participate in.</p>
+                    <td> 
+                        <p> I'm a massive chess fan and started joining the chess club in my school years and at the University.
+                        </p>
                     </td>
                 </tr>
-
-                <tr>
-                    <td>Math</td>
-                    <td><p>Ever since elementary school, I had a passion for math. In elementary school and my younger years, I attended a math club called 24 math which tests Outside
-                        the math skills in my elementary school. I loved calculus in high school and have been enjoying the subject upon post-secondary education</p>
-                    </td>
-                </tr>
-
                 <tr>
                     <td>Hiking</td>
-                    <td><p>My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails. Even though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there. Here are some pictures in this link.</p></td>
-                </tr>
-
-                <tr>
-                    <td>Sports</td>
-                    <td><p>It was not until late middle school, I started to try out soccer. I then further participated in soccer throughout high school and enjoyed it despite being an average player.</p>
-                    
+                    <td><p>My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails. 
+                        Even though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there. 
+                        Here are some pictures in this link.</p>
                     </td>
                 </tr>
-
                 <tr>
-                    <td>Music</td>
+                    <td>Miscellaneous</td>
                     <td>
-                        <p>I am a big fan of instrumental, pop and hip hop music.</p>
-                        <p>I listen to different artists ranging from NCS to Maroon 5 to Juice Wrld. Over middle school, I've gotten into listing to Maroon 5 as the band was popular during the 2000s. </p>
-                         </td>
+                        <p>Other things that I like to do outside of tech are: </p>
+                        <ul>
+                            <p>Traveling, I've been to East Asia to visit family and I'm looking forward to explore the world as life goes on.</p>
+                        </ul>
+                    </td>
                 </tr>
             </table>
     </div>);
