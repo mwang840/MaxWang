@@ -44,10 +44,17 @@ function About(){
                 <tr>
                     <td>Miscellaneous</td>
                     <td>
-                        <p>Other things that I like to do outside of tech are: </p>
-                        <ul>
-                            <p>Traveling, I've been to East Asia to visit family and I'm looking forward to explore the world as life goes on.</p>
-                        </ul>
+                        <p>Other things that I like to do outside of tech are:
+                            <ol>
+                                <li>Traveling</li>
+                            
+                            </ol> 
+                            
+                            Mathmatics
+                            Movies
+                            Geography
+                        </p>
+                        
                     </td>
                 </tr>
             </table>
