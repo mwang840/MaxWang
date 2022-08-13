@@ -6,7 +6,7 @@ ul{
   background-color: lightblue;
 }
 
-li {
+ul li {
     float: left;
 }
 
