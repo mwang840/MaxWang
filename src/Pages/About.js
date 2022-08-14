@@ -7,7 +7,7 @@ function About(){
     return (<div>
             <h1>About Me</h1>
             <br></br>
-            <img src={max} alt="Max" style={{width: 450, height: 400, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
+            <img src={max} alt="Max" style={{width: 450, height: 225, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
             <br></br>
             <br></br>
             <br></br>
@@ -22,7 +22,7 @@ function About(){
                 <tr>
                     <td>Exercising</td>
                     <td> 
-                        <p>I like to exercise daiy which includes biking, doing weight-resistant tranining, running or walking.
+                        <p>I like to exercise daiy which includes biking, doing weight-resistant tranining, running, walking or training at the gym.
                         </p>
                     </td>
                 </tr>
