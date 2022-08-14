@@ -2,12 +2,14 @@ import React from "react";
 import './About.css';
 import max from "../assets/MaxWang.JPG"
 import chess from "../assets/chess.jpg"
+import workout from "../assets/workout.jpg"
+import utah from "../assets/utah.jpg"
 
 function About(){
     return (<div>
             <h1>About Me</h1>
             <br></br>
-            <img src={max} alt="Max" style={{width: 450, height: 225, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
+            <img src={max} alt="Max" style={{width: 300, height: 200, display:"absolute", top:0, left:0, right:10, bottom:0}}></img>
             <br></br>
             <br></br>
             <br></br>
@@ -20,7 +22,7 @@ function About(){
             <br></br>
             <table class="center">
                 <tr>
-                    <td>Exercising</td>
+                    <td>Exercising <img src={workout} alt="exercising" style={{width:150, height: 100, display: "absolute", top:0, left:10, right:0, bottom:10}}></img></td>
                     <td> 
                         <p>I like to exercise daiy which includes biking, doing weight-resistant tranining, running, walking or training at the gym.
                         </p>
@@ -28,16 +30,16 @@ function About(){
                 </tr>
                 
                 <tr>
-                <td>Chess <img src={chess} alt="chess" style={{width: 150, height: 100, display:"absolute", top:0, left:0, right:10, bottom:0}}></img></td>
+                <td>Chess <img src={chess} alt="chess" style={{width: 150, height: 100, display:"absolute", top:0, left:10, right:0, bottom:0}}></img></td>
                     <td> 
                         <p> I'm a massive chess fan and started joining the chess club in my school years and at the University.</p>
                     </td>
                 </tr>
                 <tr>
-                    <td>Hiking</td>
+                    <td>Hiking <img src={utah} alt="Kolob Canyon" style={{width: 150, height: 100, display:"absolute", top:0, left:10, right:0, bottom:0}}></img></td>
                     <td><p>My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails. 
                         Even though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there. 
-                        Here are some pictures in this link.</p>
+                       </p>
                     </td>
                 </tr>
                 <tr>
@@ -45,11 +47,12 @@ function About(){
                     <td>
                         <p>Other things that I like to do outside of tech are:
                             <ol>
-                                <li>Traveling</li>
+                                <li>Traveling: I've been to East Asia and the Western United States. Someday, I'm hoping</li>
                                 <li>Mathematics</li>
-                                <li>Movies</li>
+                                <li>Movies/TV: Although I rarely watch TV/Movies, I've gotten into the passion of horror movies. If you are into superheroes, I recommend <i>The Boys</i> a fun tv show to watch.</li>
                                 <li>Geography</li>
-                                <li>Football (American term for soccer)</li>
+                                <li>Photography</li>
+                                <li>Football: I'm a big Tottenham Fan and enjoy my team playing in the English Premier League. Even though my club has not won a trophy, I still admire the players.</li>
                             </ol> 
                         </p>
                     </td>
