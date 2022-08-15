@@ -10,6 +10,7 @@ export default function NavBar(){
             <li><Link to="/">Maxwell Wang</Link></li>
             <li><CustomLink to="/">Home</CustomLink></li>
             <li><CustomLink to="/about">About</CustomLink></li>
+            <li><CustomLink to="/contacts">Contacts</CustomLink></li>
         </ul>
         
         
