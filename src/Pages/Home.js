@@ -1,5 +1,4 @@
 import React from "react";
-import {Button} from "../components/Button";
 import max from "../assets/MaxWang.JPG";
 import "./Home.css"
 
@@ -9,8 +8,7 @@ function Home(){
         <p>My name is Maxwell Wang, an undergradutate junior studying computer science at the University of Delaware concentrating in artificial intelligence.
       </p>
       <p>Feel free to explore the different menu sections of my website</p>
-      <p>Got any issues, submit it to the feedback button right on my website</p>
-      <Button>Feedback</Button>
+      <p>If the website has any issues, submit it under the contacts page.</p>
       <footer><small>This website was made with Javascript and the React.js framework.</small></footer>
     </div>
 }
