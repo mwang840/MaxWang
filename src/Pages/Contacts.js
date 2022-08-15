@@ -7,6 +7,22 @@ function Contacts(){
     const [phoneNum, setPhoneNumber] = useState("");
     const [message, setMessage] = useState("");
 
+    const handleName = event=>{
+        setFullName(event.target.value);
+    }
+
+    const handleEmail = event=>{
+        setEmail(event.target.value);
+    }
+
+    const handlePhoneNum = event=>{
+        setPhoneNumber(event.target.value);
+    }
+
+    const handleMessage = event=>{
+        setMessage(event.target.value);
+    }
+
     const handleSubmit = event => {
         console.log('handleSubmit ran');
         event.preventDefault();
@@ -22,20 +38,23 @@ function Contacts(){
         setMessage("");
     };
 
+
     return <div>
         <h1>Contact me!</h1>
         <img src={contact} alt="phone" style={{width: 250, height: 200, display:"absolute", top:0, left:10, right:0, bottom:0}}></img>
         <p>Feel free to put your contact information down below or <a href="malito:maxwang@udel.edu">shoot me an email right here</a></p>
         <br></br>
-        <p>Full Name</p>
+        <br></br>
         <form onSubmit={handleSubmit}>
+            <p>Full Name</p>
             <input
             id="Full Name"
             name="Full Name"
             type="text"
             value={fullName}
-            onChange={event=>setFullName(event.target.value)}
+            onChange={handleName}
             />
+            <br></br>
             <br></br>
             <p>Email</p>
             <input
@@ -43,8 +62,9 @@ function Contacts(){
             name="Email"
             type="text"
             value={email}
-            onChange={event=>setFullName(event.target.value)}
+            onChange={handleEmail}
             />
+            <br></br>
             <br></br>
             <p>Phone Number</p>
             <input
@@ -52,8 +72,9 @@ function Contacts(){
             name="Phone Number"
             type="text"
             value={phoneNum}
-            onChange={event=>setFullName(event.target.value)}
+            onChange={handlePhoneNum}
             />
+            <br></br>
             <br></br>
             <p>Message</p>
             <input
@@ -61,8 +82,9 @@ function Contacts(){
             name="Message"
             type="text"
             value={message}
-            onChange={event=>setFullName(event.target.value)}
+            onChange={handleMessage}
             />
+            <br></br>
             <br></br>
             <button type="submit">Submit Information</button>
         </form>
