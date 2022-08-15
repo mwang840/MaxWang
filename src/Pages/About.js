@@ -47,6 +47,7 @@ function About(){
                     <td>
                         <p>Other things that I like to do outside of tech are:
                             <ol>
+                                <li>Aviation</li>
                                 <li>Traveling: I've been to East Asia and the Western United States. Someday, I'm hoping</li>
                                 <li>Mathematics</li>
                                 <li>Movies/TV: Although I rarely watch TV/Movies, I've gotten into the passion of horror movies. If you are into superheroes, I recommend <i>The Boys</i> a fun tv show to watch.</li>
