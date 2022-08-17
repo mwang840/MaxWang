@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contacts from './Pages/Contacts';
 import { Routes, Route } from 'react-router-dom';
+import { faGithub, faLinkedin, faJs, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 
@@ -17,7 +18,12 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/contacts" element={<Contacts/>}/>
       </Routes>
-      <FontAwesomeIcon icon="fa-brands fa-github" />
+      <footer>
+      <a href="https://github.com/mwang840"><FontAwesomeIcon icon={faGithub} color="black" size="2x"/></a>
+      <a href="https://www.linkedin.com/in/maxwell-wang-02595a1b9/"><FontAwesomeIcon icon = {faLinkedin} size="2x"/></a>
+      <a href="https://www.youtube.com/channel/UCHCqPwHUde2P-idHPUTMoqA"><FontAwesomeIcon icon = {faYoutubeSquare} color="red" size="2x"/></a>
+      <FontAwesomeIcon icon={faJs} color="yellow" size="2x"/>
+      </footer>
     </div>
   );
 }
