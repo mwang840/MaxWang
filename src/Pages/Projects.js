@@ -1,5 +1,6 @@
 import React from "react";
 import udcsSchelduler from "../assets/Capture.JPG"
+import "./Projects.css"
 
 function Projects(){
     return <div>
@@ -11,10 +12,23 @@ function Projects(){
         <table class="center">
             <tr>
                 <td>
-                    UD Course Scheduler Frontend Website<img src={udcsSchelduler} alt="CISC Schelduler" style={{width:500, height:200, display: "absolute", top:0, left:10, right:0, bottom:10}}></img>
+                    <p>UD Course Scheduler Frontend Website</p><img src={udcsSchelduler} alt="CISC Schelduler" style={{width:250, height:100, display: "absolute", top:0, left:10, right:0, bottom:10}}></img>
+                    <a href="https://github.com/UD-CISC275-S22/cis-scheduler-team-007">For More Information, click here</a>
                 </td>
                 <td>
-                <p>Written in TypeScript with React.js library + with two other undergraduate students, we were able to design a website that is able to generate a four-year plan for Computer Science/Information Science Majors or Minors. On our website, the clients are able to add, delete or change plans, schedules for each semester and add or delete each course per semester.</p>
+                <p>The features of the website allows undergraduate students to</p>
+                    <ul>
+                        <li>
+                            A modal that greets students and gives instructions how to schedule courses
+                        </li>
+                        <li>
+                            Add, change names and delete plans
+                        </li>
+                        <li>
+                            Add, delete, name schedules set the season and the year of the semester
+                        </li>
+                        <li>Plan out courses throughout each semester</li>
+                    </ul>
                 </td>
             </tr>
         </table>
