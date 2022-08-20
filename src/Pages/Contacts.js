@@ -86,7 +86,7 @@ function Contacts(){
             />
             <br></br>
             <br></br>
-            <button type="submit">Submit Information</button>
+            <button type="submit"><a href= "malito=maxwang@udel.edu">Submit Information</a></button>
         </form>
     </div>
 }
