@@ -12,24 +12,34 @@ function Projects(){
         <table class="center">
             <tr>
                 <td>
-                    <p>UD Course Scheduler Frontend Website</p><img src={udcsSchelduler} alt="CISC Schelduler" style={{width:250, height:100, display: "absolute", top:0, left:10, right:0, bottom:10}}></img>
-                    <a href="https://github.com/UD-CISC275-S22/cis-scheduler-team-007">For More Information, click here</a>
+                    <h5>UD CIS Scheduler Frontend Website</h5>
+                    <a href="https://github.com/UD-CISC275-S22/cis-scheduler-team-007">For More Information, click here</a><img src={udcsSchelduler} alt="CISC Schelduler" style={{width:250, height:100, display: "absolute", top:0, left:10, right:0, bottom:10}}></img>
                 </td>
                 <td>
                 <p>The features of the website allows undergraduate students to</p>
                     <ul>
                         <li>
-                            A modal that greets students and gives instructions how to schedule courses
+                            <p>&nbsp;A modal that greets students and gives instructions how to schedule courses</p>
                         </li>
                         <li>
-                            Add, change names and delete plans
+                            <p>Add, change names and delete plans</p>
                         </li>
                         <li>
-                            Add, delete, name schedules set the season and the year of the semester
+                            <p>Add, delete, name schedules set the season and the year of the semester</p>
                         </li>
-                        <li>Plan out courses throughout each semester</li>
+                        <li><p>Plan out courses throughout each semester</p></li>
                     </ul>
                 </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>React.js in a nutshell</p>
+                </td>
+                <td>
+                    <p>A small project, that me and two other undergraduate students made, which explains the basic functionality of the React framework using
+                        hooks
+                    </p>
+                    </td>
             </tr>
         </table>
     </div>
