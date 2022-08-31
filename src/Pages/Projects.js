@@ -33,13 +33,22 @@ function Projects(){
             </tr>
             <tr>
                 <td>
-                    <p>React.js in a nutshell</p>
+                    <h5>React.js in a nutshell</h5>
+                    <p><a href="https://github.com/mwang840/React-In-A-nutshell">For More Informationc click here</a></p>
                 </td>
                 <td>
                     <p>A small project, that me and two other undergraduate students made, which explains the basic functionality of the React framework using
                         hooks
                     </p>
                     </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Assembly Pi Projects</h5>
+                </td>
+                <td>
+                    <p>Displays some images on to the pi hat written in Assembly Language</p>
+                </td>
             </tr>
         </table>
     </div>
