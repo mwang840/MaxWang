@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/maxwang/static/css/main.bc08631f.css",
-    "main.js": "/maxwang/static/js/main.0e35c76a.js",
+    "main.css": "/maxwang/static/css/main.48673e0d.css",
+    "main.js": "/maxwang/static/js/main.64ca42e4.js",
     "static/js/787.988cc48b.chunk.js": "/maxwang/static/js/787.988cc48b.chunk.js",
     "static/media/MaxWang.JPG": "/maxwang/static/media/MaxWang.ecd97ea5e3b4e7c0ce47.JPG",
+    "static/media/Capture.JPG": "/maxwang/static/media/Capture.7b3624e2c0dac9f84f9d.JPG",
     "static/media/utah.jpg": "/maxwang/static/media/utah.9cae78f49713384cf4f4.jpg",
+    "static/media/pi.jpg": "/maxwang/static/media/pi.48e2cb5eddfe043b25a1.jpg",
     "static/media/contact.jpg": "/maxwang/static/media/contact.248a7c151acd54e145a6.jpg",
     "static/media/workout.jpg": "/maxwang/static/media/workout.85f28412c0611d86048d.jpg",
     "index.html": "/maxwang/index.html",
-    "main.bc08631f.css.map": "/maxwang/static/css/main.bc08631f.css.map",
-    "main.0e35c76a.js.map": "/maxwang/static/js/main.0e35c76a.js.map",
+    "main.48673e0d.css.map": "/maxwang/static/css/main.48673e0d.css.map",
+    "main.64ca42e4.js.map": "/maxwang/static/js/main.64ca42e4.js.map",
     "787.988cc48b.chunk.js.map": "/maxwang/static/js/787.988cc48b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc08631f.css",
-    "static/js/main.0e35c76a.js"
+    "static/css/main.48673e0d.css",
+    "static/js/main.64ca42e4.js"
   ]
 }
