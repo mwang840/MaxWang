@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maxwang/static/css/main.48673e0d.css",
+    "main.css": "/maxwang/static/css/main.026b117b.css",
     "main.js": "/maxwang/static/js/main.64ca42e4.js",
     "static/js/787.988cc48b.chunk.js": "/maxwang/static/js/787.988cc48b.chunk.js",
     "static/media/MaxWang.JPG": "/maxwang/static/media/MaxWang.ecd97ea5e3b4e7c0ce47.JPG",
@@ -10,12 +10,12 @@
     "static/media/contact.jpg": "/maxwang/static/media/contact.248a7c151acd54e145a6.jpg",
     "static/media/workout.jpg": "/maxwang/static/media/workout.85f28412c0611d86048d.jpg",
     "index.html": "/maxwang/index.html",
-    "main.48673e0d.css.map": "/maxwang/static/css/main.48673e0d.css.map",
+    "main.026b117b.css.map": "/maxwang/static/css/main.026b117b.css.map",
     "main.64ca42e4.js.map": "/maxwang/static/js/main.64ca42e4.js.map",
     "787.988cc48b.chunk.js.map": "/maxwang/static/js/787.988cc48b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48673e0d.css",
+    "static/css/main.026b117b.css",
     "static/js/main.64ca42e4.js"
   ]
 }
